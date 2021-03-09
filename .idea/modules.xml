@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FolgsvartLinje/FolgsvartLinje.iml" filepath="$PROJECT_DIR$/FolgsvartLinje/FolgsvartLinje.iml" />
-      <module fileurl="file://$PROJECT_DIR$/HeiVerden/HeiVerden.iml" filepath="$PROJECT_DIR$/HeiVerden/HeiVerden.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LineFollower/LineFollower.iml" filepath="$PROJECT_DIR$/LineFollower/LineFollower.iml" />
-      <module fileurl="file://$PROJECT_DIR$/RobotArm/RobotArm.iml" filepath="$PROJECT_DIR$/RobotArm/RobotArm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SensorTest/SensorTest.iml" filepath="$PROJECT_DIR$/SensorTest/SensorTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/StraightFollow/StraightFollow.iml" filepath="$PROJECT_DIR$/StraightFollow/StraightFollow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ball9000/Ball9000.iml" filepath="$PROJECT_DIR$/Ball9000/Ball9000.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/legoEV3.iml" filepath="$PROJECT_DIR$/.idea/legoEV3.iml" />
     </modules>
   </component>

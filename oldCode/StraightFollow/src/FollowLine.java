@@ -1,4 +1,3 @@
-import com.sun.jmx.snmp.mpm.SnmpMsgTranslator;
 import lejos.hardware.Brick;
 import lejos.hardware.BrickFinder;
 import lejos.hardware.motor.EV3LargeRegulatedMotor;

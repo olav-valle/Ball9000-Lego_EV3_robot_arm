@@ -1,3 +1,7 @@
+import lejos.hardware.BrickFinder;
+import lejos.hardware.Button;
+import lejos.hardware.ev3.EV3;
+import lejos.hardware.port.Port;
 import lejos.robotics.subsumption.Arbitrator;
 import lejos.robotics.subsumption.Behavior;
 
@@ -19,7 +23,7 @@ import lejos.robotics.subsumption.Behavior;
  * This executes the behavior's action() method. The action() method details the exact behavior
  * to be taken while it is in control.
  *
- *          * An action() method is kept active by a boolean variable (suppressed = false),
+ * An action() method is kept active by a boolean variable (suppressed = false),
  * and should finish when suppressed = true.
  *
  * When the action() method finishes, it should put the robot in a safe state,
@@ -36,24 +40,14 @@ import lejos.robotics.subsumption.Behavior;
  * @author Olav Valle
  * @version 04/11/19
  */
+
 public class ArmMain {
 
-    public static void main(String[] args)
-    {
-        // Behaviors
-        Behavior white = new MoveWhite();
-        Behavior black = new MoveBlack();
-        Behavior home = new MoveHome();
+    private static ArmArbitrator armArbitrator;
 
-        // Behavior array
-        Behavior[] bArray = { home, white, black };
-
-        // Arbitrator
-        Arbitrator arb = new Arbitrator(bArray);
-        arb.go();
-
-
-
-    }
+    public static void main(String[] args) {
+            armArbitrator= new ArmArbitrator();
+            armArbitrator.start();
+    }//main
 
 }
